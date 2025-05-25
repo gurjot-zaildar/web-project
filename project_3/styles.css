@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f4;
+    font-family: Arial, sans-serif;
+}
+
+#header{
+    background-color: #2b2e2b;
+    color: white; 
+    padding: 10px; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #2b2e2b;
+    background-color: #f4f7f4;
+    padding: 10px; 
+    font-weight: 800px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+#nav1{
+    flex: 1;
+    padding: 10px;
+}
+#nav2{
+    flex: 1;
+    padding: 10px;
+}
+#nav3{
+    flex: 1;
+    padding: 10px;
+}
+#nav4{
+    flex: 1;
+    padding: 10px;
+}
+a:link{
+    color: #212221;
+    text-decoration: none;
+}
+#sidebar{
+    width : 180px;
+    height : 870px;
+    display : flex;
+    flex-direction: column;
+    background-color: #e1e6e1;
+    padding: 10px;
+}
+#sidebar1{
+    flex : 1;
+
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+#sidebar2{
+    flex : 1;
+   
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+#sidebar3{
+    flex : 1;
+    
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+#sidebar4{
+    flex : 1;
+    
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+#main{
+    position: absolute;
+    top: 163px;
+    left: 200px;
+    width : 1228px;
+    height : 800px;
+    display : flex;
+    flex-direction: row;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+
+}
+.main1{
+    flex : 1;
+    padding-top: 70px;
+    position: absolute;
+    height: auto;
+    Width : 100%;
+    padding-left: 90px;
+}
+.main2{
+    flex : 1;
+    padding-top: 550px;
+    position: absolute;
+    height: auto;
+    Width : 100%;
+    padding-left: 10px;
+    font-weight: 550; 
+    font-family: Arial, sans-serif;  
+}
+#footer{
+    background-color: rgb(18, 20, 18);
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    position: absolute;
+}
