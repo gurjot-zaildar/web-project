@@ -1,17 +1,52 @@
-#parent{
-    height: 55vw;
-    width: 100vw;
-    width: 100%;;
-    background-color: lightblue;
-    padding: 20px;
+body{
+    height: 100vh;
+   
+    background-color: rgb(236, 239, 239);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-#child0{
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    height: 80%;
-    width: 40%;
-    background-color: rgb(175, 61, 61);
-    padding: 20px;
+#parent{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    width :320px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+}
+#parent h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#parent label{
+    display: block ;
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+#parent input,textarea{
+    width: 100%;
+    padding: 10px;
+    padding-right: 0px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+#parent textarea{
+    height: 80px;
+    resize: none;
+}
+#parent button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: rgb(16, 76, 254);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#parent button:hover{
+    background-color: rgb(29, 136, 250);
 }
