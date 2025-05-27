@@ -18,6 +18,7 @@ body{
 #parent h2{
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
 }
 #parent label{
     display: block ;
@@ -46,7 +47,22 @@ body{
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
+    transition: 0.3s;
+    
 }
 #parent button:hover{
+    transform: scale(1.05);
     background-color: rgb(29, 136, 250);
+}
+#parent button:active{
+    transform: scale(3s);
+    background-color: rgb(254, 16, 16);
+}
+#parent textarea:focus{
+    border-color: rgb(47, 203, 231);
+    outline: none;
+}
+#parent input:focus{
+    border-color: rgb(47, 203, 231);
+    outline: none;
 }
