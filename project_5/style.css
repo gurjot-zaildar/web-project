@@ -32,6 +32,7 @@ body{
    border-radius: 10px;
    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
    border: 1px solid rgb(163, 163, 163);
+   justify-content: center;
   
 
 }
@@ -42,6 +43,8 @@ body{
     margin-top: 2vh;
     margin-left: 5vw;
     background-size: cover;
+    background-position: center;
+    background-position-y: 20%;
     background-image: url(https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1396&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 
 
@@ -49,51 +52,85 @@ body{
 .child2{
     grid-column: b;
     background-size: cover;
-    background-color: rgb(8, 0, 255);
    height: 40vh;
    width: 90vw;
    border-radius: 10px;
    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
-     border: 1px solid black;
+   border: 1px solid rgb(196, 196, 196);
+
+}
+.childb{
+    position: absolute;
+    height: 30vh;
+    width: 80VW;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 40%;
+    background-image: url(https://images.unsplash.com/photo-1610824352934-c10d87b700cc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 
 }
 .child3{
     grid-column: c;
     background-size: cover;
-    background-color: rgb(0, 255, 166);
    height: 40vh;
    width: 90vw;
    border-radius: 10px;
    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
      border: 1px solid black;
 
+}
+.childc{position: absolute;
+    height: 30vh;
+    width: 80VW;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 70%;
+    background-image: url(https://images.unsplash.com/photo-1560343090-f0409e92791a?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 .child4{
     grid-column: d;
     background-size: cover;
-    background-color: rgb(238, 0, 255);
    height: 40vh;
    width: 90vw;
    border-radius: 10px;
    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
      border: 1px solid black;
 
+}
+.childd{position: absolute;
+    height: 30vh;
+    width: 80VW;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1655557937610-32eee4f6c5df?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 .child5{
     grid-column: e;
     background-size: cover;
-    background-color: rgb(188, 255, 62);
    height: 40vh;
    width: 90vw;
    border-radius: 10px;
    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
      border: 1px solid black;
 
+}
+.childe{position: absolute;
+    height: 30vh;
+    width: 80VW;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1560472355-af30e12ec1bd?q=80&w=1526&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 .child6{
     grid-column: f;
     background-size: cover;
-    background-color: rgb(255, 38, 0);
    height: 40vh;
    width: 90vw;
    border-radius: 10px;
@@ -101,11 +138,46 @@ body{
      border: 1px solid black;
 
 }
-.parent h3{
+.childf{position: absolute;
+    height: 30vh;
+    width: 80VW;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1505740106531-4243f3831c78?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.product-details{
     text-align: center;
     color: rgb(0, 0, 0);
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 32vh;
+    padding: 0px;
+}
+.price{
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    
+
+}
+.product-details p{
+    margin: 0;
+    padding: 0;
+}
+.product-details h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+.price{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 4px;
 }
 .footer{
     text-align: center;
