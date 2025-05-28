@@ -1,6 +1,119 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+.heading{
+    text-align: center;
+}
+.parent{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat (6, 1fr);
+    grid-gap: 10px;
+    
+    grid-template-areas: " a
+                           b
+                           c
+                           d
+                           e
+                           f "; 
+}
+.child1{
+    grid-column: a;
+   background-size: cover;
+   height: 40vh;
+   width: 90vw;
+   border-radius: 10px;
+   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+   border: 1px solid rgb(163, 163, 163);
+  
+
+}
+.childa{
+    position: absolute;
+    height: 30vh;
+    width: 80VW;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1396&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+
+}
+.child2{
+    grid-column: b;
+    background-size: cover;
+    background-color: rgb(8, 0, 255);
+   height: 40vh;
+   width: 90vw;
+   border-radius: 10px;
+   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+     border: 1px solid black;
+
+}
+.child3{
+    grid-column: c;
+    background-size: cover;
+    background-color: rgb(0, 255, 166);
+   height: 40vh;
+   width: 90vw;
+   border-radius: 10px;
+   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+     border: 1px solid black;
+
+}
+.child4{
+    grid-column: d;
+    background-size: cover;
+    background-color: rgb(238, 0, 255);
+   height: 40vh;
+   width: 90vw;
+   border-radius: 10px;
+   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+     border: 1px solid black;
+
+}
+.child5{
+    grid-column: e;
+    background-size: cover;
+    background-color: rgb(188, 255, 62);
+   height: 40vh;
+   width: 90vw;
+   border-radius: 10px;
+   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+     border: 1px solid black;
+
+}
+.child6{
+    grid-column: f;
+    background-size: cover;
+    background-color: rgb(255, 38, 0);
+   height: 40vh;
+   width: 90vw;
+   border-radius: 10px;
+   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+     border: 1px solid black;
+
+}
+.parent h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-top: 32vh;
+}
+.footer{
+    text-align: center;
+    position: absolute;
+    margin-top: 150vh;
     width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    color: rgb(61, 61, 61);
 }
