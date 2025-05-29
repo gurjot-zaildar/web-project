@@ -5,3 +5,69 @@ html, body {
     padding: 0;
     box-sizing: border-box;
 }
+.parent{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    margin: 0px;
+    gap: 10px;
+
+    background-color: rgb(95, 252, 255);
+    grid-template-areas:"a "
+                        "b"
+                        "c"
+                        "d"
+                        "e"
+                        "f"
+                        "g"
+                        "h"
+                        "i"
+                        "j" ;
+
+    @media (min-width : 1024px){
+         grid-template-areas :"a a b c"
+                              "a a d e"
+                              "f g j j"
+                              "h i j j";
+    }
+   
+               
+               
+   .child1{
+    grid-area: a;
+   }
+   .child2{
+    grid-area: b;
+   }
+   .child3{
+    grid-area: c;
+   }
+   .child4{
+    grid-area: d;
+   }
+   .child5{
+    grid-area: e;
+   }
+   .child6{
+    grid-area: f;
+   }
+   .child7{
+    grid-area: g;
+   }
+   .child8{
+    grid-area: h;
+   }
+   .child9{
+    grid-area: i;
+   }
+   .child10{
+    grid-area: j;
+   }
+
+img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+}

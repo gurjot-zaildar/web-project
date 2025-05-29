@@ -5,3 +5,54 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.parent {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  margin: 0px;
+  gap: 10px;
+  background-color: rgb(95, 252, 255);
+  grid-template-areas: "a " "b" "c" "d" "e" "f" "g" "h" "i" "j";
+}
+@media (min-width: 1024px) {
+  .parent {
+    grid-template-areas: "a a b c" "a a d e" "f g j j" "h i j j";
+  }
+}
+.parent .child1 {
+  grid-area: a;
+}
+.parent .child2 {
+  grid-area: b;
+}
+.parent .child3 {
+  grid-area: c;
+}
+.parent .child4 {
+  grid-area: d;
+}
+.parent .child5 {
+  grid-area: e;
+}
+.parent .child6 {
+  grid-area: f;
+}
+.parent .child7 {
+  grid-area: g;
+}
+.parent .child8 {
+  grid-area: h;
+}
+.parent .child9 {
+  grid-area: i;
+}
+.parent .child10 {
+  grid-area: j;
+}
+.parent img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
