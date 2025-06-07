@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.view-1{
+    padding: 1.5rem;
+
+    .top{
+        
+        h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 3rem;
+            line-height: 3.2rem;
+            span{
+                opacity: 70%;
+            }
+        }
+        p{
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+    
+        }
+    }
+    .images{
+        margin-top: 3rem;
+        display: grid;
+        gap: 2rem;
+        grid-template-areas: "a a b b"
+                             "a a b b"
+                             "a a b b"
+                             "a a b b"
+                             "a a c c"
+                             "a a c c";
+    
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1rem;
+        
+    }
+    .a{
+        grid-area: a;
+    }
+    .b{
+        grid-area: b;
+    }
+    .c{
+        grid-area: c;
+    }
+    }
+}
+@media(min-width : 1020px){
+    .view-1{
+        display: flex;
+        gap: 5rem;
+        .top{
+            h1{
+                line-height: 5rem;
+                font-size: 5rem;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+    
+    .images{
+        grid-template-areas: ". . b b"
+                             "a a b b"
+                             "a a b b"
+                             "a a b b"
+                             "a a c c"
+                             ". . c c";
+    }
+
+}
+}
