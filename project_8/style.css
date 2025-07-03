@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(28, 27, 27);
+}
+
+.view-1 h1 {
+  text-align: center;
+  color: aliceblue;
+}
+.view-1 img {
+  margin-left: 40%;
+}
+.view-1 button {
+  margin-top: 30px;
+  margin-left: 42%;
+  color: rgb(227, 227, 227);
+  background-color: rgb(38, 38, 38);
+  border-radius: 20px;
+  border-color: aliceblue;
+  border-width: 2px;
+}
