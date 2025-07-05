@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(161, 253, 253);
+}
+body .view-1 h1 {
+  text-align: center;
+}
+body .main {
+  background-color: rgb(60, 60, 60);
+  border-radius: 12px;
+  margin-left: 35%;
+  margin-top: 10%;
+  width: 30%;
+}
+body .main .box h2 {
+  text-align: center;
+  color: rgb(247, 255, 2);
+}
+body .main .box button {
+  font-size: large;
+  font-weight: 700;
+  margin-left: 37%;
+  margin-bottom: 20px;
+  background-color: rgb(28, 28, 28);
+  border-radius: 15px;
+  color: rgb(0, 255, 4);
+}
+body .main .box .top {
+  display: flex;
+  background-color: rgb(47, 47, 47);
+  border-radius: 12px;
+}
+body .main .box .top img {
+  margin: 10px;
+  width: 5vw;
+  height: 10vh;
+  border-radius: 50%;
+}
+body .main .box .top h1 {
+  margin-left: 5px;
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
+}
