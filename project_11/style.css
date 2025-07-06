@@ -1,0 +1,44 @@
+body {
+  background-color: bisque;
+}
+
+.main {
+  background-color: rgb(0, 247, 255);
+  width: 40%;
+  margin-left: 28%;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+.main h1 {
+  padding-top: 10px;
+  text-align: center;
+  color: rgb(247, 1, 255);
+}
+.main .inner {
+  background-color: rgb(255, 255, 255);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 45%;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.main .inner h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.main button {
+  padding: 7px;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 19px;
+  margin-left: 44.5%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: black;
+  color: aliceblue;
+}
+.main button:active {
+  transform: translate(3px);
+}
