@@ -28,8 +28,8 @@ body {
   border-radius: 5px;
   background-color: rgb(29, 207, 29);
   font-size: large;
-  margin-left: 42%;
-  padding: 10px;
+  margin-left: 39%;
+  height: 50px;
 }
 .main .bot button:active {
   transform: scale(1.05);
