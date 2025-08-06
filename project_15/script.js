@@ -23,7 +23,7 @@ class mobile{
         console.log(`${this.brand}-${this.color}-${this.price}-${this.model}`)
     }
     insertsim(sim){
-if(sim.length===2){
+if(this.sims.length===2){
     console.log("you already have two sim in your mobile")
     return;
 }
@@ -45,6 +45,17 @@ class sim{
 }
 let mymobileshop = new mobileshop()
 let samsung = new mobile("samsung","black",20000,"f-34");
+let iphone = new mobile("iphone","white",120000,"16 pro")
+let readmi = new mobile("readmi","gray",12000,"8a dual")
+
 let jio = new sim("jio",300);
-samsung.insertsim("jio")
+let bsnl = new sim("bsnl",500);
+
+samsung.insertsim(jio)
+samsung.insertsim(bsnl)
+iphone.insertsim(bsnl)
+readmi.insertsim(jio)
+
 mymobileshop.addmobile(samsung)
+mymobileshop.addmobile(iphone)
+mymobileshop.addmobile(readmi)
